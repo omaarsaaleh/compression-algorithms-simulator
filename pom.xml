@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.compression</groupId>
-    <artifactId>Compression-Algorithms</artifactId>
+    <artifactId>compression-algorithms-simulator</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
