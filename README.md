@@ -44,13 +44,7 @@ System.out.println(lzw.compressToTokens("AABABC").toString());
 // Output: [<65>, <65>, <66>, <129>, <67>]
 // Decompress
 System.out.println(lzw.decompress("[<65>, <65>, <66>, <129>, <67>]"));
-List<LZWToken> tokens = List.of(
-        new LZWToken(65),
-        new LZWToken(65),
-        new LZWToken(66),
-        new LZWToken(129),
-        new LZWToken(67)
-);
-System.out.println(lzw.decompress(tokens));
+List<LZWToken> tokens1 = LZWToken.asList(65, 65, 66, 129, 67);
+System.out.println(lzw.decompress(tokens1));
 // Output: AABABC
 ```
